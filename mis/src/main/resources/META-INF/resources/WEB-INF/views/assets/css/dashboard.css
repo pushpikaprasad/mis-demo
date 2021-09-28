@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+.MIS-logo {
+	text-shadow: rgb(179, 179, 179) 0px 0px 0px, rgb(184, 184, 184) 1px 1px
+		0px, rgb(190, 190, 190) 2px 2px 0px, rgb(196, 196, 196) 3px 3px 0px,
+		rgb(202, 202, 202) 4px 4px 0px, rgb(208, 208, 208) 5px 5px 0px,
+		rgb(214, 214, 214) 6px 6px 0px, rgb(220, 220, 220) 7px 7px 0px,
+		rgb(226, 226, 226) 8px 8px 0px, rgb(231, 231, 231) 9px 9px 0px,
+		rgb(237, 237, 237) 10px 10px 0px, rgb(243, 243, 243) 11px 11px 0px,
+		rgb(249, 249, 249) 12px 12px 0px;
+	font-size: 55px;
+	color: rgb(1, 2, 13);
+	line-height: 10px;
+	border-radius: 1%;
+	text-align: center;
+}
+
+.sidenav {
+	background: linear-gradient(to top, rgb(249 243 243/ 40%),
+		rgb(251, 245, 245)), url(/img/sidebar-1.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+/* navbar */
+.navbar {
+	padding: 5px 0;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 70px;
+	background-color: #1f4f75;
+}
+
+/* nav links */
+.nav {
+	padding: 0px 0px 50px 0px;
+	margin: 10px;
+	list-style: none;
+}
+
+.nav li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.navbar a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #DDD;
+}
+
+/* if you want pull right nav links */
+.nav-right {
+	float: right;
+	line-height: 39px;
+}
+
+.dropdown-content{
+	top:auto !important;
+}
+/* .dp {
+	display: block;
+	width: 119.078px;
+	left: 90%;
+	right: 0px;
+	top: inherit;
+	height: 50px;
+	transform-origin: 0px 0px;
+	opacity: 1;
+} */
+
+.modal { width: 90% !important ; max-height: 100% !important ; margin: -20px auto 0px auto !important;}
+.carousel.carousel-slider {
+  height: 90% !important;
+}
+
+#DeleteStudent { width: 50% !important ; height: 50% !important ; }
+
+/*LOADING*/
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal-looading {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url(/img/ajax-loader.gif) 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal-looading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal-looading {
+    display: block;
+}
+
+/*change main_page margin */
+@media all and (min-width: 1200px) {
+  .main_page {
+    margin:0% 0% 0% 25%;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1199px) {
+  .main_page {
+    margin:0% 0% 0% 30%;
+  }
+}
+
+  .main_page {
+    padding: 0 0 50vh 0;
+  }
+
+/* icons */
+
+
+

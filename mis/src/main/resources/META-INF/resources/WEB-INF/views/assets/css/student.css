@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+.prefixing {
+  
+  display: inline;
+}
+
+.dogs {
+  
+  display: inline;
+}
+
+.input-field label {
+	color: #212121 !important;
+}
+
+.modal { width: 95% !important ;}
+.modal { max-height: 88% !important;}

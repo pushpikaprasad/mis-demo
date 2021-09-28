@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+table tr {
+	border-bottom: 1px solid black;
+}
+
+.modal {
+	width: 90% !important;
+}
+
+textarea {
+	height: 15vh !important;
+}
+
+.rejectForm {
+	background-color: #eeeeee;
+	padding: 0px 10px 0px 10px;
+}
+
+.tabs .tab a {
+	color: #400080 !important;
+} /*Black color to the text*/
+.tabs .tab a:hover {
+	background-color: #eee !important;
+	color: #c0c0c0 !important;
+} /*Text color on hover*/
+.tabs .tab a.active {
+	background-color: #a0cfe0 !important;
+	color: #400040 !important;
+} /*Background and text color when a tab is active*/
+.tabs .indicator {
+	background-color: #000 !important;
+} /*Color of underline*/
+
+@media only screen and (max-width: 992px){
+	table.responsive-table td {
+	    display: grid !important;
+	    min-height: 1.25em !important;
+	    text-align: center !important;
+	}
+	
+	table.responsive-table tr {
+	    border-left: 1px solid gray !important;
+	}
+	
+	table.responsive-table .table_head {
+	    border: none !important;
+	}
+}

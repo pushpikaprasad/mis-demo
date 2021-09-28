@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+ html, body {
+  font-size: 62.5%;
+  background-image: url('/img/slider-2.jpg');
+  font-family: Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+} 
+
+
+a {
+      color: #fff;
+      cursor: pointer;
+ }
+
+
+
+.login{
+	background-color: rgba(0,0,0,.4);
+}
+
+.input-field input[type=date]:focus + label,
+    .input-field input[type=text]:focus + label,
+    .input-field input[type=email]:focus + label,
+    .input-field input[type=password]:focus + label {
+      color:  #fff;
+      display: block;
+      
+    }
+  
+ .input-field input[type=date]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus,
+    .input-field input[type=password]:focus {
+      border-bottom: 2px solid #e91e63;
+      box-shadow: none;
+      /* background-color: rgba(256,256,256,.4); */
+      color:  #fff;
+      display: block;
+    } 
+    
+    .input-field input[type=date].valid,
+    .input-field input[type=text].valid,
+    .input-field input[type=email].valid,
+    .input-field input[type=password].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+     color:  #fff;
+      display: block;
+   }
+   
+ label{
+ 	color: white;
+ 
+ }   
+    
+    
